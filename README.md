@@ -170,7 +170,8 @@ How to fix it:
 ansible-galaxy install role_name
 
 =====================================
-(10) "ERROR! Module not found"
+
+# (10) "ERROR! Module not found"
 
 What it is:
 - Ansible cannot find the specified module.
@@ -188,7 +189,7 @@ How to fix it:
 
 =====================================
 
-(11) "ERROR! Could not parse inventory"
+# (11) "ERROR! Could not parse inventory"
 
 What it is:
 - Ansible cannot read or understand the inventory file.
