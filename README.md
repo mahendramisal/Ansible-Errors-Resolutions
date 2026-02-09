@@ -3,7 +3,7 @@ Collection of issues and errors occurred in Ansible along with the solution.
 
 Ansible is a simple and powerful automation tool, but sometimes small mistakes in configuration, inventory, or syntax can lead to confusing errors. Below are some frequently seen Ansible errors and how to fix them.
 
-#(1) "ERROR! Failed to connect to the host via ssh"
+# (1) "ERROR! Failed to connect to the host via ssh"
 
 What it is:
 - Ansible is unable to connect to the target server using SSH.
