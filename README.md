@@ -3,7 +3,7 @@ Collection of issues and errors occurred in Ansible along with the solution.
 
 Ansible is a simple and powerful automation tool, but sometimes small mistakes in configuration, inventory, or syntax can lead to confusing errors. Below are some frequently seen Ansible errors and how to fix them.
 
-(1) "ERROR! Failed to connect to the host via ssh"
+#(1) "ERROR! Failed to connect to the host via ssh"
 
 What it is:
 - Ansible is unable to connect to the target server using SSH.
@@ -21,7 +21,7 @@ How to fix it:
 - Confirm firewall allows SSH traffic.
 =====================================
 
-(2) "ERROR! The playbook could not be found"
+# (2) "ERROR! The playbook could not be found"
 
 What it is:
 - Ansible cannot find the playbook file you are trying to run.
@@ -39,7 +39,7 @@ How to fix it:
 
 =====================================
 
-(3) "ERROR! Syntax Error while loading YAML"
+# (3) "ERROR! Syntax Error while loading YAML"
 
 What it is:
 - Ansible finds invalid YAML formatting in your playbook.
@@ -59,7 +59,7 @@ How to fix it:
 
 =====================================
 
-(4) "ERROR! Missing required arguments"
+# (4) "ERROR! Missing required arguments"
 
 What it is:
 - An Ansible module is missing mandatory parameters.
@@ -76,7 +76,7 @@ How to fix it:
 
 =====================================
   
-(5) "UNREACHABLE! => Failed to connect"
+# (5) "UNREACHABLE! => Failed to connect"
 
 What it is:
 - Ansible marks a host as unreachable during execution.
@@ -95,7 +95,7 @@ How to fix it:
 
 =====================================
 
-(6) "ERROR! Variable is undefined"
+# (6) "ERROR! Variable is undefined"
 
 What it is:
 - Ansible is trying to use a variable that is not defined.
@@ -114,7 +114,7 @@ How to fix it:
 
 =====================================
 
-(7) "ERROR! No hosts matched"
+# (7) "ERROR! No hosts matched"
 
 What it is:
 - Ansible cannot find any hosts matching the playbook target.
@@ -134,7 +134,7 @@ ansible-inventory --list
 
 =====================================
 
-(8) "ERROR! Permission denied"
+# (8) "ERROR! Permission denied"
 
 What it is:
 - Ansible does not have permission to perform actions on the target server.
@@ -153,7 +153,7 @@ become_user: root
 
 =====================================
 
-(9) "ERROR! Could not find or access roles"
+# (9) "ERROR! Could not find or access roles"
 
 What it is:
 - Ansible cannot locate the role mentioned in the playbook.
@@ -206,7 +206,7 @@ ansible-inventory --graph
 
 =====================================
 
-(12) "FAILED! => Task failed"
+# (12) "FAILED! => Task failed"
 
 What it is:
 - A task has failed during execution.
@@ -226,7 +226,7 @@ Debug step by step.
 
 =====================================
 
-(13) "ERROR! Timeout waiting for privilege escalation prompt"
+# (13) "ERROR! Timeout waiting for privilege escalation prompt"
 
 What it is:
 - Ansible is waiting for sudo password but not receiving it.
